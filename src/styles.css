@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+}
+
+.main-container {
+  margin: auto;
+  width: 400px;
+  height: 690px;
+  position: relative;
+  top: 50px;
+  background-color: rgb(28, 78, 78);
+}
+.profil-photo img {
+  position: relative;
+  left: 18%;
+  top: 30px;
+  width: 250px;
+  height: 240px;
+  border-radius: 10px 10px 0px 0px;
+}
+.info-container {
+  position: relative;
+  left: 18%;
+  width: 250px;
+  height: 410px;
+  background-color: rgb(7, 7, 22);
+  border-radius: 0px 0px 10px 10px;
+}
+.user-name {
+  color: rgb(202, 202, 212);
+  font-size: 80%;
+  height: 40px;
+  text-align: center;
+}
+.user-name > h2 {
+  padding-top: 10px;
+}
+.designation-name {
+  color: rgb(202, 202, 212);
+  font-size: 88%;
+  text-align: center;
+}
+.company-name {
+  color: rgb(202, 202, 212);
+  font-size: 65%;
+  text-align: center;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+#btn1 {
+}
+
+.about-info > h3 {
+  font-size: 110%;
+  color: rgb(202, 202, 212);
+}
+.about-info > p {
+  font-size: 80%;
+  color: rgb(202, 202, 212);
+}
+.interest-info > h3 {
+  font-size: 110%;
+  color: rgb(202, 202, 212);
+}
+.interest-info > p {
+  font-size: 80%;
+  color: rgb(202, 202, 212);
+}
+.footer-icons {
+  height: 13%;
+  /* border: 1px solid white; */
+  background-color: rgb(12, 37, 37);
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.Coffee:hover {
+  color: rgb(44, 91, 153);
+}
